@@ -6,7 +6,7 @@ public class Main {
 
 
         int bonus;
-        if (addSum >= 1000) {
+        if (addSum > 1000) {
             bonus = addSum / 100;
         } else {
             bonus = 0;
